@@ -17,20 +17,21 @@ var topresults = [];
 // set question arrays and and answers 
 
 var questions =[
-  {
-    q1:"Javascript is?",
-    choices : ["A scripting language" , "An Object-based Programming language", "Inserted into HTML pages" , "All of the above"],
-    answers : "All of the above"
-  },
+ 
 {
     q1:"Which of the following is not a Javascript data type?",
-    choices : ["number" , "string" , "equation" , "object"],
-    answer : "equation"
+    choices : ["Number" , "String" , "Equation" , "Object"],
+    answer : "Equation"
   },
 {
     q1:"Which company developed JavaScript?",
     choices : ["Microsoft" , "Netscape" ,"Google" , "All of the above"],
     answer : "Netscape"
+  },
+   {
+    q1:"Javascript is?",
+    choices : ["A scripting language" , "An Object-based Programming language", "Inserted into HTML pages" , "All of the above"],
+    answer : "All of the above"
   },
 {
     q1:"True or False: Undeclared and undefined variables are the same thing.",
